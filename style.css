@@ -1,20 +1,20 @@
 body
-{   height: 50%;
-	width:50%;
-	background-image:url("C:\Users\matri\OneDrive\Documents\TS6\ISN\HTMLInit\HTMLP\gold.png");
+{   /*height: 50%;*/
+	/*width:50%;*/
+	background-image:url("gold.png");
 	background-attachment:scroll;
 }
 p /*balise de paragraphe. Entre les accolades on précise toutes les propriétés nécessaires au style des paragraphes*/
 {
-	font-size : 20px; /*taille du texte*/
+	font-size : 25px; /*taille du texte*/
 	background-color:black;/* couleur du fond*/
-	color:yellow;/*couleur de la police*/
+	color:silver;/*couleur de la police*/
 	/* couleurs possibles : white, silver, gray, black, red, maroon, lime, green, yellow, olive, blue, navy, fuchsia, purple, aqua et teal*/
 }
 img
 {
-	width:30%;
-	height:30%;
+	width:50%;
+	height:50%;
 }
 .basic
 {
@@ -45,7 +45,6 @@ img
 }
 .images
 {
-	float:right;
 }
 .illustration
 {
@@ -59,15 +58,24 @@ h1,h3
 	text-align:center;
 	font-family:Arial;
 	text-decoration:blink;
-	width:50%;
+	width:100%;
 	color:white;
 }
 h2,h4
 {
-	width:50%;
+	width:100%;
 	text-align:center;
-	background-color:rgb(255, 217, 0);
-	font-family:Petscop;
+	background-color:red;
+	font-family:Arial;
+	text-decoration:blink;
+	color:black;
+}
+h5
+{
+	width:100%;
+	text-align:center;
+	background-color:red;
+	font-family:Wingdings;
 	text-decoration:blink;
 	color:black;
 }
